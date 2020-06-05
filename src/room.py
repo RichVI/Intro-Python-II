@@ -8,3 +8,6 @@ class Room:
         self.s_to = "invalid"
         self.e_to = "invalid"
         self.w_to = "invalid"
+
+    def __str__(self):
+        return f"{self.name}: {self.description}"
